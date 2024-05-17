@@ -5,28 +5,28 @@ import subprocess
 from tabulate import tabulate
 
 firewalls = {
-    "10.11.1.1": "Albany",
-    "10.70.1.1": "Cortland",
-    "10.50.1.1": "Gainsville",
-    "10.2.1.1": "Fresno",
-    "10.1.1.1": "Modesto",
-    "10.35.1.1": "Nacogdoches",
-    "10.5.1.1": "Riverside",
-    "10.20.1.1": "Salida",
-    "10.40.1.1": "Springdale",
-    "10.12.1.1": "Vislia",
+    "xxxxxxxx: "Albany",
+    "xxxxxxxx": "Cortland",
+    "xxxxxxxx": "Gainsville",
+    "xxxxxxxx": "Fresno",
+    "xxxxxxxx": "Modesto",
+    "xxxxxxxx": "Nacogdoches",
+    "xxxxxxxx": "Riverside",
+    "xxxxxxxx": "Salida",
+    "xxxxxxxx": "Springdale",
+    "xxxxxxxx": "Vislia",
 }
 
 servers = {
-    "10.11.1.32": "MITS",
-    "10.11.1.13": "Veeam",
-    "10.11.1.11": "DC1",
-    "10.11.1.21": "VSIFILE",
-    "10.11.1.12": "DC2",
-    "10.11.1.25": "VSI-TSFS",
-    "10.11.1.26": "VSI-RDS1",
-    "10.11.1.27": "VSI-RDS2",
-    "10.11.1.28": "VSI-RDS3",
+    "xxxxxxxx": "MITS",
+    "xxxxxxxx": "Veeam",
+    "xxxxxxxx": "DC1",
+    "xxxxxxxx": "VSIFILE",
+    "xxxxxxxx": "DC2",
+    "xxxxxxxx": "VSI-TSFS",
+    "xxxxxxxx": "VSI-RDS1",
+    "xxxxxxxx": "VSI-RDS2",
+    "xxxxxxxx": "VSI-RDS3",
 }
 
 def ping_server(ip_address):
