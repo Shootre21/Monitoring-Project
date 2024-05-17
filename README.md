@@ -30,14 +30,14 @@ This PowerShell script is designed to periodically ping a list of IP addresses a
 ```powershell
 $ipAddresses = @{
     "Google" = "8.8.8.8"
-    "ERP" = "10.11.1.31"
-    "DC1" = "10.11.1.11"
-    "VSIFILE" = "10.11.1.21"
-    "DC2" = "10.11.1.12"
-    "VSI-TSFS" = "10.11.1.25"
-    "VSI-RDS1" = "10.11.1.26"
-    "VSI-RDS2" = "10.11.1.27"
-    "VSI-RDS3" = "10.11.1.28"
+    "ERP" = "XXXXXXXXXXXXX"
+    "DC1" = "XXXXXXXXXXX"
+    "VSIFILE" = "XXXXXXXXXX"
+    "DC2" = "XXXXXXXXXX"
+    "TSFS" = "XXXXX"
+    "RDS1" = "XXXXXX"
+    "VSI-RDS2" = "XXXXXXX"
+    "VSI-RDS3" = "XXXXXX"
 }
 ```
 - This section defines a hashtable named `$ipAddresses` where the keys are names (descriptive labels) and the values are the corresponding IP addresses.
