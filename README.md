@@ -36,8 +36,8 @@ $ipAddresses = @{
     "DC2" = "XXXXXXXXXX"
     "TSFS" = "XXXXX"
     "RDS1" = "XXXXXX"
-    "VSI-RDS2" = "XXXXXXX"
-    "VSI-RDS3" = "XXXXXX"
+    "RDS2" = "XXXXXXX"
+    "RDS3" = "XXXXXX"
 }
 ```
 - This section defines a hashtable named `$ipAddresses` where the keys are names (descriptive labels) and the values are the corresponding IP addresses.
